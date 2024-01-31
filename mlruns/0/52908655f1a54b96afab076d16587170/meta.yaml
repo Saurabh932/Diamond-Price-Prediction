@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/First-Mlops-Project/mlruns/0/52908655f1a54b96afab076d16587170/artifacts
+end_time: 1706732335242
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 52908655f1a54b96afab076d16587170
+run_name: traveling-shrew-387
+run_uuid: 52908655f1a54b96afab076d16587170
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706732330123
+status: 3
+tags: []
+user_id: Acer
