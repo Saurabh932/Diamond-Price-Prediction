@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/First-Mlops-Project/mlruns/0/6e4b53ef703b4712adf384e55ce37ddb/artifacts
+end_time: 1707135679406
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6e4b53ef703b4712adf384e55ce37ddb
+run_name: honorable-lamb-172
+run_uuid: 6e4b53ef703b4712adf384e55ce37ddb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707135675644
+status: 3
+tags: []
+user_id: Acer

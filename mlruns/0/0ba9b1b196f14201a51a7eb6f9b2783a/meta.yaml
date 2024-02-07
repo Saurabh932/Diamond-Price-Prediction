@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/First-Mlops-Project/mlruns/0/0ba9b1b196f14201a51a7eb6f9b2783a/artifacts
+end_time: 1707226042314
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ba9b1b196f14201a51a7eb6f9b2783a
+run_name: abundant-sloth-389
+run_uuid: 0ba9b1b196f14201a51a7eb6f9b2783a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707226037620
+status: 3
+tags: []
+user_id: Acer

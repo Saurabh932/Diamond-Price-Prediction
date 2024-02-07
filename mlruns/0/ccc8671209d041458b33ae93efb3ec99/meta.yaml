@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/First-Mlops-Project/mlruns/0/ccc8671209d041458b33ae93efb3ec99/artifacts
+end_time: 1707135890820
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccc8671209d041458b33ae93efb3ec99
+run_name: persistent-ape-327
+run_uuid: ccc8671209d041458b33ae93efb3ec99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707135887008
+status: 3
+tags: []
+user_id: Acer

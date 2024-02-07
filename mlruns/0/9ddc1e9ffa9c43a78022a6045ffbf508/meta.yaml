@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/First-Mlops-Project/mlruns/0/9ddc1e9ffa9c43a78022a6045ffbf508/artifacts
+end_time: 1707135854983
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ddc1e9ffa9c43a78022a6045ffbf508
+run_name: bustling-finch-205
+run_uuid: 9ddc1e9ffa9c43a78022a6045ffbf508
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707135851195
+status: 3
+tags: []
+user_id: Acer

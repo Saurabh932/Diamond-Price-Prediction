@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/First-Mlops-Project/mlruns/0/074f1ce1919e47e9a77ea4884f9809e6/artifacts
+end_time: 1707135928436
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 074f1ce1919e47e9a77ea4884f9809e6
+run_name: beautiful-goose-606
+run_uuid: 074f1ce1919e47e9a77ea4884f9809e6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707135924624
+status: 3
+tags: []
+user_id: Acer

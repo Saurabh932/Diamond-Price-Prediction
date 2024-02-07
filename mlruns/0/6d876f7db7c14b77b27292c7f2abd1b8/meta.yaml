@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/First-Mlops-Project/mlruns/0/6d876f7db7c14b77b27292c7f2abd1b8/artifacts
+end_time: 1707135502196
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d876f7db7c14b77b27292c7f2abd1b8
+run_name: kindly-cub-100
+run_uuid: 6d876f7db7c14b77b27292c7f2abd1b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707135498291
+status: 3
+tags: []
+user_id: Acer

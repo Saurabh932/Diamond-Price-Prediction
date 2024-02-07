@@ -1,0 +1,32 @@
+FROM python:3.8-slim-buster
+
+USER root
+
+# Create directory for the application
+RUN mkdir /app
+COPY . /app/
+WORKDIR /app/
+
+# Install Python dependencies
+RUN pip3 install -r requirements.txt
+
+# Set Airflow environment variables
+ENV AIRFLOW_HOME="/app/airflow"
+ENV AIRFLOW_CORE_DAGBAG_IMPORT_TIMEOUT=1000
+ENV AIRFLOW_CORE_ENABLE_XCOM_PICKLING=True
+
+# Initialize Airflow database using 'db migrate' command
+RUN airflow db init
+
+# Create Airflow user
+RUN airflow users create -e saurabhmandhalkar03@gmail.com -f saurabh -l mandhalkar -p admin -r Admin -u admin
+
+# Set permissions for start.sh script
+RUN chmod 777 start.sh
+
+# Update packages
+RUN apt update -y
+
+# Set the entrypoint and default command
+ENTRYPOINT [ "/bin/sh" ]
+CMD ["start.sh"]

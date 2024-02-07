@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/First-Mlops-Project/mlruns/0/9b8b241f09b243dab0ff5ad74ef15c6e/artifacts
+end_time: 1707135544342
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9b8b241f09b243dab0ff5ad74ef15c6e
+run_name: polite-bug-949
+run_uuid: 9b8b241f09b243dab0ff5ad74ef15c6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707135540130
+status: 3
+tags: []
+user_id: Acer

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/First-Mlops-Project/mlruns/0/be82cf3e714b4005be47ad14cceb9d97/artifacts
+end_time: 1707135608409
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be82cf3e714b4005be47ad14cceb9d97
+run_name: delicate-snipe-600
+run_uuid: be82cf3e714b4005be47ad14cceb9d97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707135604380
+status: 3
+tags: []
+user_id: Acer

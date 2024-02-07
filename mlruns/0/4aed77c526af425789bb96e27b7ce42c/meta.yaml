@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/First-Mlops-Project/mlruns/0/4aed77c526af425789bb96e27b7ce42c/artifacts
+end_time: 1707135276485
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4aed77c526af425789bb96e27b7ce42c
+run_name: zealous-moth-668
+run_uuid: 4aed77c526af425789bb96e27b7ce42c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707135272340
+status: 3
+tags: []
+user_id: Acer
