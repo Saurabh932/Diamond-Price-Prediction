@@ -1,0 +1,123 @@
+/* Common styles for all HTML files */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center bottom; /* Center the background images */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/* Styles for index.html */
+body#index {
+    background-image: url('https://png.pngtree.com/background/20230621/original/pngtree-pastel-crystal-gemstones-in-stunning-3d-render-picture-image_3929094.jpg');
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+}
+
+.container-index {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text */
+    font-weight: bold; /* Make font bold */
+    font-size: 20px; /* Increase font size */
+    max-width: 600px; /* Limit width of container */
+    margin: auto; /* Center horizontally */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px; /* Rounded border */
+    border: 2px solid #007bff; /* Border color same as background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Transition effects */
+    font-weight: bold; /* Make font bold */
+    font-size: 18px; /* Increase font size */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+    transform: translateY(-2px); /* Move button slightly up */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Change shadow on hover */
+}
+
+/* Styles for form.html */
+body#form {
+    background-image: url('https://wallpapercosmos.com/w/full/c/b/9/1182443-3840x2160-desktop-4k-gemstone-wallpaper-photo.jpg');
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.4); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px; /* Rounded border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Transition effects */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+    transform: translateY(-2px); /* Move button slightly up */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Change shadow on hover */
+}
+
+/* Styles for result.html */
+body#result {
+    background-image: url('https://wallpaperaccess.com/full/175829.jpg'); /* Replace with your actual background image URL */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.result-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000000; /* Set font color to black */
+    font-weight: bold; /* Make font bold */
+    font-size: 24px; /* Increase font size */
+}
