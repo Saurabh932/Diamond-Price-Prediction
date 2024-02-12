@@ -138,31 +138,31 @@ The prediction pipeline, named "PredictPipeline" in the project, is responsible 
 
 **1. First you have to login:**
 
-![](./images\air-1.jpg)
+![](https://github.com/Saurabh932/First-Mlops-Project/blob/main/images/air-1.jpg)
 
 
 **2. Then find "gemstone-prediction":**
 
-![](images\air-2.jpg)
+![](https://github.com/Saurabh932/First-Mlops-Project/blob/main/images/air-2.jpg)
 
 
 **3. Then you can see the CT pipeline**
 
-![](images\air-3.jpg)
+![](https://github.com/Saurabh932/First-Mlops-Project/blob/main/images/air-3.jpg)
        
 
 ## Web Application Demo
 
 **1. Click the button to procedded:**
 
-![](images\1-predict.jpg)
+![](https://github.com/Saurabh932/First-Mlops-Project/blob/main/images/1-predict.jpg)
 
 
 **2. Enter the values.**
 
-![](images\2-predict.jpg)
+![](https://github.com/Saurabh932/First-Mlops-Project/blob/main/images/2-predict.jpg)
 
 
 **3. Click on submit to get final Result**
 
-![](images\3-predict.jpg)
+![](https://github.com/Saurabh932/First-Mlops-Project/blob/main/images/3-predict.jpg)
