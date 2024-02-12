@@ -51,11 +51,11 @@ with DAG(
         training_pipeline.start_model_training(train_arr, test_arr)
 
         ## you have to config azure blob
-    def push_data_to_s3(**kwargs):
-        import os
-        bucket_name=os.getenv("BUCKET_NAME")
-        artifact_folder="/app/artifacts"
-        os.system(f"aws s3 sync {artifact_folder} s3:/{bucket_name}/artifact")
+    # def push_data_to_s3(**kwargs):
+    #     import os
+    #     bucket_name=os.getenv("BUCKET_NAME")
+    #     artifact_folder="/app/artifacts"
+    #     os.system(f"aws s3 sync {artifact_folder} s3:/{bucket_name}/artifact")
         
 
     data_ingestion_task = PythonOperator(
@@ -91,10 +91,10 @@ with DAG(
     """
     )
 
-    push_data_to_s3_task = PythonOperator(
-        task_id="push_data_to_s3",
-        python_callable=push_data_to_s3
-        )
+    # push_data_to_s3_task = PythonOperator(
+    #     task_id="push_data_to_s3",
+    #     python_callable=push_data_to_s3
+    #     )
 
-    data_ingestion_task >> data_transform_task >> model_trainer_task >> push_data_to_s3_task
-    # data_ingestion_task >> data_transform_task >> model_trainer_task
+    # data_ingestion_task >> data_transform_task >> model_trainer_task >> push_data_to_s3_task
+    data_ingestion_task >> data_transform_task >> model_trainer_task
