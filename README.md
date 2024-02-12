@@ -134,6 +134,18 @@ The prediction pipeline, named "PredictPipeline" in the project, is responsible 
 4. **Prediction**: The preprocessed input data is fed into the loaded model to make predictions. The predicted values are returned as the output of the prediction pipeline.
 
 
+
+### Techstack Used:
+
+- Python
+- Git
+- DVC
+- AirFlow
+- MLFlow
+- Docker
+
+
+
 ## Airflow Demo
 
 **1. First you have to login:**
