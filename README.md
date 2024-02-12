@@ -138,7 +138,7 @@ The prediction pipeline, named "PredictPipeline" in the project, is responsible 
 
 **1. First you have to login:**
 
-![](images\air-1.jpg)
+![](./images\air-1.jpg)
 
 
 **2. Then find "gemstone-prediction":**
