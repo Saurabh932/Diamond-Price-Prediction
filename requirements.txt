@@ -5,7 +5,7 @@ seaborn
 ipykernel
 Flask
 #this is more stable version
-mlflow==2.2.2
+mlflow==2.11.3
 dvc
 apache-airflow
 Flask-Session==0.5.0
